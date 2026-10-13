@@ -13,9 +13,10 @@ p {
     text-decoration: underline;
     font-size: 1.5 rem;
     font-weight: bold;
+    font-family: serif;
 }
 
 p:hover {
-    background-color:rgba(191, 23, 23, 0.5);
-    color:white;
+    background-color: rgba(191, 23, 23, 0.5);
+    color: white;
 }
