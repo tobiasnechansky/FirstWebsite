@@ -20,3 +20,11 @@ p:hover {
     background-color: rgba(191, 23, 23, 0.5);
     color: white;
 }
+
+ul{
+    list-style-type: "🦊";
+
+}
+ul ol{
+    list-style-type: upper-roman;
+}
