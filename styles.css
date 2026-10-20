@@ -21,10 +21,33 @@ p:hover {
     color: white;
 }
 
-ul{
+ul {
     list-style-type: "🦊";
 
 }
-ul ol{
+
+ul ol {
     list-style-type: upper-roman;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+td,
+th {
+    border-width: 1px;
+    border-style: solid;
+    border-color: black;
+}
+
+tr:nth-child(even) {
+    background-color: #e6e6e6ff;
+}
+
+.green-bg{
+    background-color:green;
+}
+.bold-text{
+    font-weight:bold;
 }
