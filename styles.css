@@ -23,11 +23,11 @@ p:hover {
 
 ul {
     list-style-type: "🦊";
-
 }
 
 ul ol {
     list-style-type: upper-roman;
+    clear: both;
 }
 
 table {
@@ -42,12 +42,20 @@ th {
 }
 
 tr:nth-child(even) {
-    background-color: #e6e6e6ff;
+    background-color: #e6e6e6;
 }
 
-.green-bg{
-    background-color:green;
+.green-bg {
+    --padding-size: 2rem;
+    background-color: green;
+    padding-left: var(--padding-size);
+    padding-right: var(--padding-size);
 }
-.bold-text{
-    font-weight:bold;
+
+.bold-text {
+    font-weight: bold;
+}
+img{
+    border: 8px solid #26ff79;
+    float:left;
 }
